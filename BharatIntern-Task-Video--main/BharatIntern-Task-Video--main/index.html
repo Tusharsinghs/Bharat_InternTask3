@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Conferencing Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="site-title">ZOOM</h1>
+        </header>
+
+        <section id="join-wrapper">
+            <input id="username" type="text" placeholder="Enter your name...">
+            <button id="join-btn">Join Conference</button>
+        </section>
+
+        <section id="user-streams"></section>
+
+        <footer>
+            <button id="camera-btn">camera</button>
+
+            <button id="mic-btn">microphone</button>
+
+            <button id="leave-btn">leave</button>
+            </div>
+        </footer>
+    </main>
+    <script src="https://download.agora.io/sdk/release/AgoraRTC_N.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
